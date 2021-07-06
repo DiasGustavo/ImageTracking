@@ -31,12 +31,16 @@
   </head>
 
   <body style="margin: 0; overflow: hidden;">
+    <div class="arjs-loader">
+        <div>Carregando ...</div>
+    </div>
     <a-scene
       vr-mode-ui="enabled: false"
       embedded
       arjs="sourceType: webcam; debugUIEnabled: false;"
     >
       <a-text
+        color="green"
         value="Pico do Jabre - Paraiba."
         look-at="[gps-camera]"
         scale="5 5 5"
